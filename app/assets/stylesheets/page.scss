@@ -10,8 +10,9 @@
   padding-top: 5px;
   height: 300px;
   width: 80%;
-  
 }
+
+
 
 // 글꼴가져오기
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
@@ -38,6 +39,7 @@
 	height: 100px;
 	padding: 30px 60px;
 }
+
 
 // 상단메뉴바스타일
 .top_menubar{
@@ -73,6 +75,17 @@ a {
 	height: 200px;
 }
 
+// 치킨집 카테고리
+.category_b{
+    border: 2px solid #000000;
+    color: #000000;
+    font-size: 1.8rem;
+    margin-top: 20px;
+	height: 200px;
+	text-align: center;
+	border-radius: 30px;
+}
+
 // 카테고리 가운대로 정렬하기
 .category_arr{
 	width: 70%;
@@ -80,6 +93,33 @@ a {
 	padding: 5px;
 }
 
+// 치킨집 카테고리 가운대로 정렬하기
+.category_arr2{
+	width: 45%;
+	margin: 0px auto;
+	padding: 5px;
+}
+
+// 치킨집 메뉴 리스트 가운대로 정렬
+.category_arr3{
+	width: 35%;
+	margin: 0px auto;
+	padding: 10px;
+	text-align: center;
+	// background-color: #ff7f00
+}
+
+// 치킨리스트 패딩넣기
+.mar{
+	padding: 20px;
+}
+
+// 이미지랑 텍스트 한줄로 보이기
+.imgtext{
+	float:left;
+	margin-top: 20px;
+
+}
 
 
 
@@ -89,8 +129,13 @@ a {
 
 
 
-
-
+.box{
+	width: 70%;
+	margin: 30px auto;
+	text-align: center;
+	background-color: #989888;
+	padding: 5px;
+}
 
 
 
@@ -98,7 +143,7 @@ a {
 
 
 .site-header {
-    background-color: #000000;
+    background-color: #2ac1bc;
 	margin-top: 0px;
 	height: 80px;
 }
