@@ -11,4 +11,7 @@ Rails.application.routes.draw do
 	get 'shopping', to:'page#shopping'
 	get 'mypage', to:'page#mypage'
 	get 'reviewpage', to:'page#reviewpage'
+	get 'login', to:'page#loginpage'
+	get 'order1', to:'page#orderpage1'
+	
 end
