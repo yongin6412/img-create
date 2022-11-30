@@ -4,4 +4,5 @@ class PageController < ApplicationController
 		@post=123
 	end
 	
+	
 end

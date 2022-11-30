@@ -188,6 +188,7 @@ a {
 .mypage_arr1{
 	width: 50%;
 	margin: 0px auto;
+	margin-top: 30px;
 	// padding: 5px;
 	text-align: center;
 	// background-color: #ff7f00
@@ -195,10 +196,20 @@ a {
 
 //마이페이지 배치2
 .mypage_arr2{
-	width: 90%;
+	width: 100%;
 	margin: 0px auto;
 	padding: 10px;
 	text-align: left;
+	// background-color: #ff7f00
+}
+
+.mypage_name{
+	width: 50%;
+	margin: 0px auto;
+	margin-top: 20px;
+	// padding: 10px;
+	text-align: center;
+	border: 1px solid #000000 !important;
 	// background-color: #ff7f00
 }
 
