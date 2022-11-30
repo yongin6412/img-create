@@ -52,6 +52,13 @@
 	color: #000000;
 }
 
+.font4{
+	font-family: 'Black Han Sans', sans-serif;
+	font-size: 2vw;
+	text-decoration-line: none;
+	color: #000000;
+}
+
 // 상단바스타일
 .top_bar{
 	display: flex;
@@ -145,7 +152,7 @@ a {
 	margin: 0px auto;
 	padding: 10px;
 	text-align: center;
-	// background-color: #ff7f00
+	background-color: #ff7f00
 }
 
 //마이페이지 정렬
@@ -224,6 +231,22 @@ a {
 	margin-top: 5px
 }
 
+.ceopage_arr1{
+	width: 40%;
+	margin: 0px auto;
+	padding: 10px;
+	text-align: center;
+	// background-color: #ff7f00
+}
+
+.ceopage_arr2{
+	width: 75%;
+	margin: 0px auto;
+	padding: 10px;
+	text-align: left;
+	margin-top: 30px;
+	// background-color: #ff7f00
+}
 
 
 
@@ -250,6 +273,7 @@ a {
 	margin-top: 20px;
 
 }
+
 
 
 
