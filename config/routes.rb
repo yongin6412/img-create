@@ -14,4 +14,6 @@ Rails.application.routes.draw do
 	get 'login', to:'page#loginpage'
 	get 'order1', to:'page#orderpage1'
 	
+	root 'page#menupage'
+	
 end
