@@ -1,9 +1,8 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
-	get 'mainpage', to:'page#mainpage'
+
 	
-	
-	get 'first', to:'page#firstpage'
+	get 'test', to:'page#test'
 	get 'menupage', to:'page#menupage'
 	get 'chicken', to:'page#chicken'
 	get 'chickenmenu', to:'page#chickenmenu'
@@ -14,6 +13,7 @@ Rails.application.routes.draw do
 	get 'ceo' , to:'page#ceopage'
 	get 'signup' , to:'page#signuppage'
 	get 'storeadd' , to:'page#storeadd'
+	get 'review' , to:'page#review'
 	
 	# root 'page#menupage'
 	

@@ -7,6 +7,25 @@
 	  <title>replit</title>
 	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+		
+		<style>
+			
+			.shopping_arr1{
+				border: 1px solid #000000;
+				color: #000000;
+				font-size: 1.8rem;
+				margin-top: 20px;
+				height: 300px;
+				text-align: center;
+			}
+		
+		
+		
+		
+		</style>
+		
+		
+		
 	</head>
 	
 	<body>
@@ -26,11 +45,71 @@
 				</ul>
 
 				<button class="font1">
-					로그인하기
+					검색
 				</button>
 			</nav>
 		</div>
 		
+		
+		
+		<div class="category_arr2" style="margin: 30px auto; text-align: center;">
+
+				<div class="col-lg-12 ">
+					<div class="font1">
+						가게명 ex)BBQ
+					</div>
+					
+					<div class="shopping_arr1 mar">
+						<div class='font4' style="text-align:left;">
+							황금올리브 후라이드
+						</div>
+						<img class="img-size rounded mx-auto d-block imgtext" src="<%=asset_path 'bbq_menu1.png'%>">
+						<div style="text-align:left; font-size:1.5vw;">
+							
+							● 가격 : 한마리<br>
+
+							● 사이드 추가선택 : 롱치즈선택 <br>
+
+						</div>
+						<a href="https://pagetest-mdurv.run.goorm.io/order1">
+							<button style="margin-top:30px;">
+								옵션변경
+							</button>
+						</a>
+
+					</div>
+					
+					<div class="shopping_arr1 mar">
+						<div class='font4' style="text-align:left;">
+							자메이카 통다리구이
+						</div>
+						<img class="img-size rounded mx-auto d-block imgtext" src="<%=asset_path 'bbq_menu3.png'%>">
+						<div style="text-align:left; font-size:1.5vw;">
+							
+							● 가격 : 한마리<br>
+
+							● 사이드 추가선택 : 치즈볼 <br>
+
+						</div>
+						<a href="#">
+							<button style="margin-top:30px;">
+								옵션변경
+							</button>
+						</a>
+
+					</div>
+
+					
+					<a href="#">
+						<button type="submit" class="btn btn-primary" style="font-size: 40px; color:#000000; margin: 30px;">배달 주문하기</button>
+					</a>
+					
+					
+					
+					
+				</div>
+
+		</div>
 		
 	</body>
 </html>
