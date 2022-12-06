@@ -15,6 +15,9 @@ Rails.application.routes.draw do
 	get 'storeadd' , to:'page#storeadd'
 	get 'review' , to:'page#review'
 	
+	get 'test2' , to:'page#test2page'
+	get 'ord' , to:'page#ordertest'
+	
 	# root 'page#menupage'
 	
 	

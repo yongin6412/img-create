@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width">
+	  <title>replit</title>
+	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+		
+		<style>
+			table,tr,td{
+            border:1px solid black;
+            border-collapse: collapse;
+        }
+		</style>
+	</head>
+	
+	<body>
+		
+		<div>
+			
+		
+			<p>
+				
+				<td><label for="price1">니트</label></td>
+				<td>12000</td>
+				<td><input type="checkbox" name="price1" id="price1" 
+					value="12000"></td>
+			</p>
+			
+			<p>
+				
+				<td><label for="price2">맨투맨</label></td>
+				<td>10000</td>
+				<td><input type="checkbox" name="price2" id="price2" 
+					value="10000"></td>
+			</p>
+			
+			<p>
+				
+				<td><label for="price3">후드티</label></td>
+				<td>15000</td>
+				<td><input type="checkbox" name="price3" id="price3" 
+					value="15000"></td>
+			</p>
+			
+			<p>
+
+				<td><label for="price4">ㄱㄱ</label></td>
+				<td>17000</td>
+				<td><input type="checkbox" name="price4" id="price4" 
+					value="17000"></td>
+			</p>
+			
+			<p>
+				<td><input type="text" name="total" id="total" value="0" readonly="readonly"></td>
+			</p>
+			
+		</div>
+		
+		
+		<script>
+			function Calculator(){
+				let total = Number(document.getElementById("total").defaultValue);
+
+				for(let i=1; i<=4; i++){
+					let chkbox = document.getElementById("price"+i);
+					if(chkbox.checked){
+						total += Number(chkbox.value);
+					}
+					document.getElementById("total").value = total;
+				}
+
+			}
+			
+			for(let i = 1; i <= 4; i++){
+					let check = document.getElementById("price"+i);
+					check.onclick = Calculator;
+				}
+		</script>
+		
+	</body>
+</html>
